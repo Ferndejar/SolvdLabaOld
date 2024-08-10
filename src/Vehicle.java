@@ -5,6 +5,10 @@ public class Vehicle {
     private double price;
     private String license_number;
 
+    public  Vehicle(){
+
+    };
+
     public Vehicle(String mark, String model, double price, String license_number) {
         this.mark = mark;
         this.model = model;
@@ -44,7 +48,7 @@ public class Vehicle {
         this.license_number = license_number;
     }
 
-    public String toString()
+    public String print()
     {
         String result;
         result = "License # : "+ getLicense_number()+ "\nVehicle Name : "+ getMark() + " " + getModel() + "\nPrice : "+ getPrice();
