@@ -15,6 +15,25 @@ public class Main {
         print = veh2.print();
         System.out.println(print);
 
+        Worker worker = new Worker();
+
+        worker.setFirstName("Jim");
+        worker.setLastName("Anvil");
+
+        worker.repair(veh2);
+
+        Sale sale = new Sale(veh2,350, 80000);
+        sale.setDepreciation(0.53847);
+        sale.setSellPrice(80000);
+        String value = sale.print();
+        System.out.print(value);
+
+        Part part = new Part("Engine","V8",8400);
+        part.print();
+
+        Rental rental = new Rental(8,120);
+        print = rental.print();
+        System.out.println(print);
 
     }
 }

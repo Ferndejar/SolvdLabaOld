@@ -5,9 +5,16 @@ public class Vehicle {
     private double price;
     private String license_number;
 
+    private int amountOfWheels;
+
     public  Vehicle(){
 
     };
+
+    public Vehicle(int amountOfWheels)
+    {
+        this.amountOfWheels = amountOfWheels;
+    }
 
     public Vehicle(String mark, String model, double price, String license_number) {
         this.mark = mark;
