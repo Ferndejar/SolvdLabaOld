@@ -39,7 +39,7 @@ public class Part {
 
     public void print()
     {
-        System.out.print("Name of Part: " + getName() + "," + " type of Part: " + getType() + "," + " price: " + getPrice());
+        System.out.print("Name of Part: " + getName() + "," + " type of Part: " + getType() + "," + " price: " + getPrice()+"\n");
     }
 
 

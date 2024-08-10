@@ -58,7 +58,7 @@ public class Vehicle {
     public String print()
     {
         String result;
-        result = "License # : "+ getLicense_number()+ "\nVehicle Name : "+ getMark() + " " + getModel() + "\nPrice : "+ getPrice();
+        result = "License # : "+ getLicense_number()+ " Vehicle Name : "+ getMark() + " " + getModel() + " Price : "+ getPrice() +"\n";
         return result;
     }
 }

@@ -34,7 +34,7 @@ public class Rental {
      public String print()
      {
           String result;
-          result = "\nRetal Info: "+"Number of Days: "+ numberDaysOfRental +" Rate per day: "+ ratePerDay +" Total: " + price();
+          result = "\nRetal Info: "+"Number of Days: "+ numberDaysOfRental +" Rate per day: "+ ratePerDay +" Total: " + price() + "\n";
           return result;
      }
 }

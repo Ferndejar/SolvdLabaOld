@@ -32,6 +32,6 @@ public class Worker {
 
     public void repair(Vehicle vehicle)
     {
-        System.out.println(firstName +" " + lastName + " repairs: " +vehicle.getMark() + " " + vehicle.getModel());
+        System.out.println(firstName +" " + lastName + " repairs: " +vehicle.getMark() + " " + vehicle.getModel()+"\n");
     }
 }

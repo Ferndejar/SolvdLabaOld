@@ -47,7 +47,7 @@ public class Sale {
 
     public String print()
     {
-        return (vehicle.print() + "\n Depreciation\t: "+ getDepreciation() + " " + " \n Selling Price \t:"+ " " + getSellPrice() + "\n");
+        return (vehicle.print() + "Depreciation "+ getDepreciation() + " " + "  Selling Price: "+ " " + getSellPrice() + "\n");
     }
 
 

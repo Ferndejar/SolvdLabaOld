@@ -26,7 +26,7 @@ public class Main {
         sale.setDepreciation(0.53847);
         sale.setSellPrice(80000);
         String value = sale.print();
-        System.out.print(value);
+        System.out.println(value);
 
         Part part = new Part("Engine","V8",8400);
         part.print();
